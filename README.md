@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/reichwebconsulting/array-filters.svg?branch=master)](https://travis-ci.org/reichwebconsulting/array-filters)
+
 # reichwebconsulting/array-filters
 
 reichwebconsulting/array-filters is a PHP 7.1+ library for array filtering.
