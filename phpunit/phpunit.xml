@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="../vendor/autoload.php"
+    stopOnError="true"
+    stopOnFailure="true"
+    stopOnIncomplete="true"
+    stopOnSkipped="true"
+    stopOnRisky="true">
+    <testsuites>
+        <testsuite name="default">
+        <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <logging>
+	   <log type="coverage-html" target="../build/phpunit/coverage" />
+    </logging>
+    <filter>
+	    <whitelist processUncoveredFilesFromWhitelist="true">
+	        <directory suffix=".php">../src/</directory>
+	    </whitelist>
+    </filter>
+</phpunit>

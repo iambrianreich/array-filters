@@ -1,0 +1,25 @@
+{
+    "name": "reichwebconsulting/array-filters",
+    "description": "A library of useful array filtering features.",
+    "keywords" : [ "php", "arrays", "filter"],
+    "require" : {
+        "php" : ">=7.1.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "RWC\\Arrays\\" : "src"
+        }
+    },
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Reich",
+            "email": "breich@reich-consulting.net",
+            "homepage" : "https://www.reich-consulting.net/"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
