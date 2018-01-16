@@ -55,7 +55,7 @@ the `phpunit` directory and running `phpunit`.
 
 ```
 cd phpunit
-phpunit
+phpunit 
 ```
 
 ## Versioning
