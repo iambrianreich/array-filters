@@ -8,7 +8,7 @@
     stopOnRisky="true">
     <testsuites>
         <testsuite name="default">
-        <directory>phpunit/tests</directory>
+        <directory>phpunit/Tests</directory>
         </testsuite>
     </testsuites>
     <logging>
